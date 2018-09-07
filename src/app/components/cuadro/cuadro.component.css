@@ -1,0 +1,180 @@
+.cuadro {
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 0; 
+    font-size: 2vw;
+}
+
+.cuadro1 {
+    color: antiquewhite;
+    position: relative;
+    border: solid white 2px;
+    top: 0;
+    display: inline-block;
+    background-color: rgb(158, 127, 87);
+    padding:.2vw .5vw;
+
+       
+}
+
+.jug1 {
+    position: relative;
+    height: 6vw;
+    border: solid antiquewhite 5px;
+    top:0;
+    left: 0;
+ 
+}
+
+p {
+    font-size: 1vw;
+}
+
+.juga1 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1vw .5vw;
+    height: 6vw;
+
+}
+
+
+
+.juga2 {
+color: antiquewhite;
+display: inline-block;
+height: 6vw;
+font-size: 1vw;
+margin: 1vw .5vw;
+
+}
+
+.juga3 {
+    color: antiquewhite;
+}
+
+.jug11 {
+    margin-top: 2vw;
+    height: 18vw;
+    border: solid black 4px;
+}
+
+.jug12 {
+    margin-top: 1vw;
+    margin-left: 2vw;
+
+}
+
+.modal-dialog {
+    top: 15vw;
+    left:2vw;
+    width: 75vw;
+    height: 25vw;
+    padding: 0;
+  
+  }
+  
+ .modal-content {
+    height: 25vw;
+    border-radius: 1vw;
+    top: 2vw;
+    border: solid black 2px;
+  }
+
+
+   .modal-body {
+      width: 20vw;
+      margin-top: 3.5vw;
+      margin-left: 2vw;
+      text-align: left;
+      border: solid rgb(0, 13, 24) 2px;
+      align-content: center;
+   }
+
+
+
+   .modal-header {
+    border: solid black 2px;
+     
+      top: 0;
+  }
+    .modal-title {
+      margin-top: .5vw;
+      font-size: 1.5vw;
+      
+  }
+
+ 
+   .numbers {
+    margin-top: 1.5vw;
+    width: 30vw;
+    height: 20vw;
+
+   
+
+  }
+  .numbers2 {
+    margin-top: 5%;
+    width: 100%;
+    height: 20vw;
+    border: solid black 2px;
+
+  }
+
+
+
+
+ .btn-primary-outline {
+     background-color: transparent;
+     border-color: transparent;
+ }
+
+   .modal1 {
+      
+    color: rgb(0, 13, 24);
+    font-weight: bold;
+    font-size: 1.5vw;
+      
+  }
+
+  .modal2 {
+      
+    font-weight: bold;
+    font-size: 1.5vw;
+      
+  }
+
+  .btn-warning {
+      height: 4vw;
+  }
+   .modal33 {
+    color: rgb(255, 255, 255);
+    background: rgb(13, 185, 228);
+    text-align: center;
+
+
+  }
+ .modal4 {
+    text-align: center;
+
+  }
+
+  .modal5 {
+    color: white;
+margin-left: 50%; 
+  }
+
+  .modal6 {
+      
+    color: rgb(0, 13, 24);
+    font-weight: bold;
+    font-size: 1.5vw;
+      
+  }
+
+  
+
+   .ngcont {
+       background-color: rgb(12, 130, 185);
+       color: antiquewhite;
+   }

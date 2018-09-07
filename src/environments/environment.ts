@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: "AIzaSyDW5LPzUvc9O336O8FvfdD96fVlRdMnXLI",
+    authDomain: "grandes-ligas-cloud.firebaseapp.com",
+    databaseURL: "https://grandes-ligas-cloud.firebaseio.com",
+    projectId: "grandes-ligas-cloud",
+    storageBucket: "grandes-ligas-cloud.appspot.com",
+    messagingSenderId: "71280722795"
+  }
+
 };
 
 /*
