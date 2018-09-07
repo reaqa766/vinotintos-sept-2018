@@ -1,4 +1,29 @@
-<div class="container">
+<div class="container1">
+    <div class="dos">JUGADORES DE JARDINES</div>
+  
+  </div>
+  
+<div class="container2">
+    <div class="datosJugadores" *ngFor="let player of players">
+        <img src="./assets/MiguelC.jpg" alt="MCabrera" class="jug1">
+        <div class="container4">
+          <div class="datosJugadores2"> <span class="datos-jugad-title"> Nombre: </span> {{player.name}}</div>
+          <div class="datosJugadores2"><span class="datos-jugad-title">Apellido:</span> {{player.lastname}}</div>
+          <div class="datosJugadores2"><span class="datos-jugad-title">Veces al bate: </span>{{player.VB}}</div>
+          <div class="datosJugadores2"><span class="datos-jugad-title">Hits: </span>{{player.hits}}</div>
+          <div class="datosJugadores2"><span class="datos-jugad-title">Homerun: </span>{{player.HR}}</div>
+        </div>
+  
+    </div>
+  </div>
+  
+
+
+
+
+
+
+<!-- <div class="container">
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-8">
@@ -10,9 +35,9 @@
     </div>
   </div>
    <div class="container">
-    <div class="row">
+    <div class="row"> -->
       <!-- <div class="col-sm-1"></div> -->
-       <div class="col-sm-12 "> 
+       <!-- <div class="col-sm-12 "> 
           <div class="juga1">     
               <a href="#"><img src="./assets/GerardoP.jpg" alt="GParra" class="jug1"></a>
               </div>
@@ -35,9 +60,8 @@
   
   
   
-    </div>
-  
-    </div>  
     </div> -->
   
-  
+    <!-- </div>  
+    </div>
+   -->

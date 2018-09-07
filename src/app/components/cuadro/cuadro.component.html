@@ -1,4 +1,48 @@
-<div class="container">
+<div class="container1">
+  <div class="dos">JUGADORES DE CUADRO</div>
+
+</div>
+
+
+<div class="container2">
+  <div class="datosJugadores" *ngFor="let player of players">
+      <img src="./assets/MiguelC.jpg" alt="MCabrera" class="jug1">
+      <div class="container4">
+        <div class="datosJugadores2"> <span class="datos-jugad-title"> Nombre: </span> {{player.name}}</div>
+        <div class="datosJugadores2"><span class="datos-jugad-title">Apellido:</span> {{player.lastname}}</div>
+        <div class="datosJugadores2"><span class="datos-jugad-title">Veces al bate: </span>{{player.VB}}</div>
+        <div class="datosJugadores2"><span class="datos-jugad-title">Hits: </span>{{player.hits}}</div>
+        <div class="datosJugadores2"><span class="datos-jugad-title">Homerun: </span>{{player.HR}}</div>
+      </div>
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="container">
     <div class="row">
       <div class="col-sm-2"></div>
       <div class="col-sm-8">
@@ -9,23 +53,31 @@
   
     </div>
   </div>
-  <div class="container">
-    <div class="row">
-      <!-- <div class="col-sm-1"></div> -->
-      <div class="col-sm-12 ">
-        <div class="juga1">
-          <a href="#">
-            <img src="./assets/MiguelC.jpg" alt="MCabrera" class="jug1">
-          </a>
-        </div>
-        <div class="juga2">
+  <div class="containerJugadores"> -->
+    <!-- <div class="row"> -->
+    <!-- <div class="col-sm-1"></div> -->
+    <!-- <div class="col-sm-12 "> -->
+    <!-- <div *ngFor="let player of players">
+  
+      <div class="juga1">
+        <a href="#">
+          <img src="./assets/MiguelC.jpg" alt="MCabrera" class="jug1">
+        </a>
+        <!-- </div> -->
+        <!-- <p>{{player.name}}</p>
+        <p>{{player.lastname}}</p>
+        <p>{{player.VB}}</p> -->
+  
+      <!-- </div>
+    </div> --> -->
+        <!-- <div class="juga2">
           <div>
             <a href="#" class="juga3"> Miguel Cabrera </a>
           </div>
           <div>1ra Base</div>
-          <div>Tigers</div>
+          <div>Tigers</div> -->
   
-        </div>
+        <!-- </div> -->
         <!-- <div class="juga1">
           <a href="#">
             <img src="./assets/VictorM.jpg" alt="VMartinez" class="jug1">
@@ -209,10 +261,10 @@
   
   
   
-      </div>
-  
+      <!-- </div> -->
+<!--   
     </div>
-  </div>
+  </div> -->
   
   
   <!-- Modal Altuve -->

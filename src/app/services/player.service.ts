@@ -16,17 +16,22 @@ export class PlayerService {
   constructor(public afs: AngularFirestore) {
     // this.playersCollection = afs.collection<PlayerInterface>('players');
     this.playersCollection = afs.collection<PlayerInterface>('players');
-    this.players = this.playersCollection.snapshotChanges().pipe(
+    this.players = this.getPlayers()
+    
+  }
+
+
+  getPlayers() {
+    let players = this.playersCollection.snapshotChanges().pipe(
       map(actions => actions.map(a => {
         const data = a.payload.doc.data() as PlayerInterface;
         const id = a.payload.doc.id;
         return { id, ...data };
       }))
     );
+    
+    return players;
   }
 
-
-  getPlayers() {
-    return this.players;
-  }
+  
 }

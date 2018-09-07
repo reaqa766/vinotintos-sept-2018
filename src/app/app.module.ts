@@ -40,7 +40,8 @@ import { RegistreseComponent } from './components/registrese/registrese.componen
     AppRoutingModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFirestoreModule,
-    FormsModule
+    FormsModule,
+   
   ],
   providers: [PlayerService],
   bootstrap: [AppComponent]

@@ -13,49 +13,28 @@ import { FooterComponent } from './components/footer/footer.component';
 
 
 const routes: Routes = [
-  {
-    path:'home',
-    component: HomeComponent,
-   
-  },
+  {path:'home',
+    component: HomeComponent},
   
   
-  {
-    path:'cuadro',
-    component: CuadroComponent,
-   
-  },
+  {path:'cuadro',
+    component: CuadroComponent},
 
-  {
-    path: 'jardines',
-    component: JardinesComponent,
+  { path: 'jardines',
+    component: JardinesComponent},
+  {path: 'nosotros',
+    component: NosotrosComponent},
 
-  },
-  {
-    path: 'nosotros',
-    component: NosotrosComponent,
-  },
+  {path: 'noticias',
+    component: NoticiasComponent,},
 
-  {
-    path: 'noticias',
-    component: NoticiasComponent,
-  },
+  {path: 'pitchers',
+    component: PitchersComponent},
 
-  {
-    path: 'pitchers',
-    component: PitchersComponent,
-  },
-
-  {
-    path: 'registrese',
-    component: RegistreseComponent,
-  },
-  {
-    path: 'ingresar',
-    component: IngresarComponent,
-  },
-  
-
+  {path: 'registrese',
+    component: RegistreseComponent},
+  {path: 'ingresar',
+    component: IngresarComponent},
 ];
 
 @NgModule({
