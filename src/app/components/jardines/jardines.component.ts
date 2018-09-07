@@ -18,7 +18,7 @@ export class JardinesComponent implements OnInit {
   constructor(private playerService: PlayerService) { }
 
   ngOnInit() {
-    this.playerService.getPlayers().subscribe(players => {
+    this.playerService.getPlayersByRegion("Outfield").subscribe(players => {
       this.players = players;
       // console.log(players);
     });

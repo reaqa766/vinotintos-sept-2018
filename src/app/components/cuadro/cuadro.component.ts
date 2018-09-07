@@ -18,10 +18,10 @@ export class CuadroComponent implements OnInit {
   constructor(private playerService: PlayerService) { }
 
   ngOnInit() {
-  
-      this.playerService.getPlayers().subscribe(players => {
+    this.playerService.getPlayersByRegion("Infield").subscribe(players => {
       this.players = players;
       // console.log(players);
     });
+
   }
   }

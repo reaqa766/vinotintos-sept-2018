@@ -7,8 +7,6 @@ export interface PlayerInterface {
     VB?: number;
     hits?: number;
     hr?: number;
-
-
-
+    Region?: any;
 
 }

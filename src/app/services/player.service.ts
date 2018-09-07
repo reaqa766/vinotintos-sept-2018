@@ -17,11 +17,39 @@ export class PlayerService {
     // this.playersCollection = afs.collection<PlayerInterface>('players');
     this.playersCollection = afs.collection<PlayerInterface>('players');
     this.players = this.getPlayers()
-    
+
+
   }
 
 
   getPlayers() {
+    let players = this.playersCollection.snapshotChanges().pipe(
+      map(actions => actions.map(a => {
+        const data = a.payload.doc.data() as PlayerInterface;
+        const id = a.payload.doc.id;
+        return { id, ...data };
+      }))
+    );
+    
+     return players;
+  }
+
+  getPlayersByRegion(region) {
+  
+    let playersFiltered = this.afs.collection<PlayerInterface>('players' , ref => ref.where('Region', '==' , region ));
+
+    let players  = playersFiltered.snapshotChanges().pipe(
+      map(actions => actions.map(a => {
+        const data = a.payload.doc.data() as PlayerInterface;
+        const id = a.payload.doc.id;
+        return { id, ...data };
+      }))
+    );
+   
+    return players;
+  }
+
+  getPlayersByPosition(position) {
     let players = this.playersCollection.snapshotChanges().pipe(
       map(actions => actions.map(a => {
         const data = a.payload.doc.data() as PlayerInterface;
