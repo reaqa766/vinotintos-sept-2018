@@ -1,0 +1,396 @@
+<!-- NUEVO DISEÑO -->
+
+<div class="container-modulo">
+  <div class="modulo">
+<div class="caja1">MODULO  CARGA DE JUGADORES
+    <hr>
+    <p class="temporada" >DIARIO</p>
+    <hr>
+   <p>Grandes Ligas</p>
+  <p>2018</p>
+</div>
+  </div>
+  <div class="modulo">
+<div class="caja2">
+  <div class="jugadores">
+      JUGADORES
+  </div>
+  <form class="inputs">
+
+      <label>Nombre</label>
+      <input class="input-data" type="text">
+      
+      <label>Apellido</label>
+      <input class="input-data" type="text">
+
+      <div class="espaciodiv"></div>
+      
+      <label>Región</label>
+      <input class="input-data" type="text">
+      
+      <label>Posición </label>
+      <input class="input-data" type="text">
+
+      
+      <div class="espaciodiv"></div>
+      
+      <label>Equipo</label>
+      <input class="input-data" type="text">
+      
+      <label>Veces B</label>
+      <input class="input-data" type="text">
+
+      <div class="espaciodiv"></div>
+      
+      <label>Hits Cn</label>
+      <input class="input-data" type="text">
+      
+      <label>C Emp</label>
+      <input class="input-data" type="text">
+
+      <div class="espaciodiv"></div>
+      
+      <label>C Anot</label>
+      <input class="input-data" type="text">
+      
+      <label>Home R</label>
+      <input class="input-data" type="text">
+
+      <div class="espaciodiv"></div>
+      
+      <label>Ponch</label>
+      <input class="input-data" type="text">
+      
+      <label>Bases B</label>
+      <input class="input-data" type="text">
+
+      <div class="espaciodiv"></div>
+
+      <button class="btn btn-danger btn-responsive center-block btn1">Guardar</button>
+      
+      </form></div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- MODULO DISEÑADO ANTERIORMENTE -->
+
+
+<!-- <div class="container-fluid  ">
+  <h1 class="align1">CARGA PLAYERS DIARIO</h1>
+  <h5 class="cuadro">
+    <a routerLink="/playerste" class="cuadro align1">
+      Player Temp </a>
+  </h5>
+
+
+  <form class="container-general" (ngSubmit)="onSavePlayer()">.
+
+    <div class="container-carga-players"> -->
+
+            <!-- MODULO DE CARGA DE JUGADORES -->
+
+      <!-- <div class="modulos">
+        <div class="carga">Carga</div>
+
+        <div class="datos-jugadores">
+
+          <label class="etiqueta1" for="inputname" >Nombre</label> 
+          <input class="dato-input1" type="text" placeholder="Nombre" id="inputname">
+
+
+          <label class="etiqueta1" for="inputname" >Apellido</label> 
+          <input class="dato-input1" type="text" placeholder="Apellido" id="inputlastname">
+
+          <label class="etiqueta1" for="inputname" >Posicion</label> 
+          <input class="dato-input1" type="text" placeholder="Veces al Bate" id="inputVB">
+        </div>
+
+        <div class="datos-jugadores">
+
+          <label class="etiqueta1" for="inputname" >Region</label> 
+          <input class="dato-input1" type="text" placeholder="Hits" id="inputhits">
+
+          <label class="etiqueta1" for="inputname" >Equipo</label> 
+          <input class="dato-input1" type="text" placeholder="CE" id="inputCE">
+
+          <label class="etiqueta1" for="inputname" >VB</label> 
+          <input class="dato-input1" type="text" placeholder="CI" id="inputCI">
+
+        </div>
+        <div class="datos-jugadores">
+
+          <label class="etiqueta1" for="inputname" >Region</label> 
+          <input class="dato-input1" type="text" placeholder="HR" id="inputHR">
+
+          <label class="etiqueta1" for="inputname" >Equipo</label> 
+          <input class="dato-input1" type="text" placeholder="PCHE" id="inputPCHE">
+
+          <label class="etiqueta1" for="inputname" >VB</label> 
+          <input class="dato-input1" type="text" placeholder="BB" id="inputBB">
+
+        </div>
+
+      <label for="inputname " class="col-sm-2 col-form-label etiqueta-nombre ">Name</label>
+          <input type="text" class="dato-input1" id="inputname" placeholder="Name" name="inputname" [(ngModel)]="player.name" > -->
+
+      <!--</div> -->
+
+      <!-- MODULO DE LISTADO DE JUGADORES -->
+<!--       
+      <div class="modulos">
+          <div class="carga">Listado</div>
+          
+              <app-player-list></app-player-list>
+
+
+
+
+
+
+
+
+
+          </div>
+           -->
+
+
+
+
+
+
+
+      <!-- <div class="row ">
+        <div class="col-md-3 marg">
+          <div class="container bacg1">
+  
+            <h6 class="text-center bg-dark text-white letr2 " >CARGAR</h6>
+  
+      <div class="container ">
+          <label for="inputname " class="col-sm-2 col-form-label letr">Name</label>
+        <input type="text" class="mb-2 ml-3" id="inputname" placeholder="Name" name="inputname" [(ngModel)]="player.name" >
+      </div>
+  
+      <div class="container ">
+          <label for="inputLname " class="col-sm-2 col-form-label letr">Lname</label>
+        <input type="text" placeholder="Lastname" id="inputLname" class="mb-2 ml-3" name="inputLname" [(ngModel)]="player.lastname">
+      </div>
+      <div class="container ">
+          <label for="inputLname " class="col-sm-2 col-form-label letr">Posicion</label>
+        <input type="text" placeholder="Position" id="inputLname" class="mb-2 ml-3" name="inputLname" [(ngModel)]="player.Position">
+      </div>
+      <div class="container ">
+          <label for="inputLname " class="col-sm-2 col-form-label letr">Region</label>
+        <input type="text" placeholder="Region" id="inputLname" class="mb-2 ml-3" name="inputLname" [(ngModel)]="player.Region">
+      </div>
+  
+      <div class="container ">
+          <label for="inputVBate " class="col-sm-2 col-form-label letr">VecesBate</label>
+        <input type="text" placeholder="VBate" class="mb-2 ml-3" id="inputVBate" name="VB" [(ngModel)]="player.VB">
+      </div>
+  
+      <div class="container ">
+          <label for="inputCAnot " class="col-sm-2 col-form-label letr">CAnot</label>
+        <input type="number" placeholder="CAnotadas" class="mb-2 ml-3" id="inputCA" name="CA" [(ngModel)]="player.CA">
+      </div>
+  
+      <div class="container ">
+          <label for="inputHits " class="col-sm-2 col-form-label letr">Hits</label>
+        <input type="text" placeholder="Hits" class="mb-2 ml-3" id="inputhits" name="hits" [(ngModel)]="player.hits">
+      </div>
+  
+      <div class="container ">
+          <label for="inputCEmp" class="col-sm-2 col-form-label letr">CEmpujadas</label>
+        <input type="text" placeholder="CEmpujadas" class="mb-2 ml-3" id="inputCE" name="CE" [(ngModel)]="player.CE">
+      </div>
+  
+      <div class="container ">
+          <label for="inputBRob " class="col-sm-2 col-form-label letr">BRobadas</label>
+        <input type="text" placeholder="Bases Robadas" class="mb-2 ml-3" id="inputBR" name="BR" [(ngModel)]="player.BR">
+      </div>
+      <div class="container ">
+          <label for="inputHR " class="col-sm-2 col-form-label letr">HomeRun</label>
+        <input type="text" placeholder="Homerun" class="mb-2 ml-3" id="inputHR" name="HR" [(ngModel)]="player.HR">
+      </div>
+  
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit" (click)="onSavePlayer()">
+          <i class="fas fa-plus-circle"></i> Add Player
+        </button>
+     </div>
+  
+  
+  
+  
+  
+    </div>
+  
+        </div>
+  
+  
+        <div class="col-md-8 marg">
+  
+  
+            <app-player-list></app-player-list>
+  
+        </div>
+  
+      </div> -->
+    <!-- </div>
+  </form>
+</div> -->
+
+<!-- <div class="container"> -->
+
+<!-- <button class="btn btn-secondary my-2 ml-2" type="reset" (click)="resetForm()">
+        <i class="fas fa-sync-alt"></i>Reset
+      </button> -->
+<!-- </div> -->
+
+
+
+
+<!--< <div class="card mt-5">
+      <div class="card-body">
+  
+       form #playerForm="ngForm" (ngSubmit)="onSubmit(playerForm)">
+         <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="playerService.selectedPlayer.$key">
+          <div class="form-group">
+          <input
+          type="text"
+          class="form-control"
+          name="name"
+          #name="ngModel"
+          [(ngModel)]="playerService.selectedPlayer.name"
+          placeholder="Player Name"
+  
+          >
+        </div>
+         <div class="form-group">
+          <input
+          type="text"
+          class="form-control"
+          name="lastname"
+          #lastname="ngModel"
+          [(ngModel)]="playerService.selectedPlayer.lastname"
+          placeholder="LastName"
+  
+          >
+       </div>
+         <div class="form-group">
+          <input
+          type="number"
+          class="form-control"
+          name="avg"
+          #avg="ngModel"
+          [(ngModel)]="playerService.selectedPlayer.avg"
+          placeholder="Avg"
+  
+          >
+        </div>
+         <div class="form-group">
+          <input
+          type="number"
+          class="form-control"
+          name="vecesbate"
+          #vecesbate="ngModel"
+          [(ngModel)]="playerService.selectedPlayer.vecesbate"
+          placeholder="VB"
+  
+          >
+        </div>
+         <div class="form-group">
+          <input
+          type="number"
+          class="form-control"
+          name="carrerasa"
+          #carrerasa="ngModel"
+          [(ngModel)]="playerService.selectedPlayer.carrerasa"
+          placeholder="CA"
+  
+          >
+        </div>
+         <div class="form-group">
+          <input
+          type="number"
+          class="form-control"
+          name="hits"
+          #hits="ngModel"
+          [(ngModel)]="playerService.selectedPlayer.hits"
+          placeholder="H"
+  
+          >
+        </div>
+         <div class="form-group">
+          <input
+          type="number"
+          class="form-control"
+          name="carrerase"
+          #carrerase="ngModel"
+          [(ngModel)]="playerService.selectedPlayer.carrerase"
+          placeholder="CE"
+  
+          >
+        </div>
+         <div class="form-group">
+          <input
+          type="number"
+          class="form-control"
+          name="basesr"
+          #basesr="ngModel"
+          [(ngModel)]="playerService.selectedPlayer.basesr"
+          placeholder="BR"
+          >
+        </div>
+         <div class="form-group">
+          <input
+          type="number"
+          class="form-control"
+          name="homer"
+          #homer="ngModel"
+          [(ngModel)]="playerService.selectedPlayer.homer"
+          placeholder="HR"
+  
+          >
+        </div>
+        <div class="form-group">
+          <button class="btn btn-primary" type="submit">
+            <i class="fas fa-plus-circle"></i> Add Player
+          </button>
+           <div class="container">
+  
+          <button class="btn btn-secondary my-2 ml-2" type="reset" (click)="resetForm(playerForm)">
+          <i class="fas fa-sync-alt"></i>Reset
+        </button>
+       </div>
+  
+  
+  
+        </div>-->
+
+<!-- </form>
+      </div>
+    </div>-->

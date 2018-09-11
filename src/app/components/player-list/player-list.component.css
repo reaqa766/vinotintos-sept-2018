@@ -1,0 +1,24 @@
+
+.letr2 {
+  font-size: 1vw;
+  text-align: center;
+}
+
+.letr3 {
+  background-color: rgba(242, 226, 207, 0.65);
+}
+
+.letr5 {
+  background-color: rgba(242, 226, 207, 0.25);
+}
+
+.PBA {
+  border: solid black 3px;
+}
+ .inline {
+   width: 100%;
+ }
+
+ .listar {
+   border: solid red 2px;
+ }

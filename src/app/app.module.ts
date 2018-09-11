@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { PlayerService } from './services/player.service';
+import {PlayeridService } from './services/playerid.service';
+
 
 
 import { environment } from '../environments/environment';
@@ -20,6 +22,10 @@ import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
 import { PitchersComponent } from './components/pitchers/pitchers.component';
 import { RegistreseComponent } from './components/registrese/registrese.component';
+import { PlayersComponent } from './components/players/players.component';
+import { PlayerListComponent } from './components/player-list/player-list.component';
+import { PlayerListteComponent } from './components/player-listte/player-listte.component';
+import { PlayersteComponent } from './components/playerste/playerste.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +39,11 @@ import { RegistreseComponent } from './components/registrese/registrese.componen
     NosotrosComponent,
     NoticiasComponent,
     PitchersComponent,
-    RegistreseComponent
+    RegistreseComponent,
+    PlayersComponent,
+    PlayerListComponent,
+    PlayerListteComponent,
+    PlayersteComponent
   ],
   imports: [
     BrowserModule,
@@ -43,7 +53,7 @@ import { RegistreseComponent } from './components/registrese/registrese.componen
     FormsModule,
    
   ],
-  providers: [PlayerService],
+  providers: [PlayerService, PlayeridService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

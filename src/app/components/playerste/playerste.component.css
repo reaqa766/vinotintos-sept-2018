@@ -1,0 +1,104 @@
+/* NUEVO DISEÑO */
+
+
+.container-modulo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  /* background-color: rgba(240, 231, 229, 0.7); */
+  height: 700px;
+  width: 1200px;
+  justify-content:center;
+  margin: auto;
+  
+
+}
+ .modulo {
+   /* background-color: rgb(10, 221, 211); */
+   font-weight: bolder;
+   height: 100%;
+   width: 100%;
+
+ }
+ 
+ .caja1 {
+  background-color: rgba(177, 167, 167, 0.5);
+  color: rgb(250, 235, 215);
+  text-shadow: -1px -1px 4px #000;
+  font-size: 4rem;
+   height: 100%;
+   text-align: center;
+   padding-top: 30%;
+   border-radius: 15px;  
+     }
+     .caja1 p {
+
+   font-size: 3rem;
+   text-align: center;
+  }
+
+ .caja2 {
+  background-color: rgba(177, 167, 167, 0.5);
+  text-shadow: -1px -1px 4px #000;
+  color: rgb(250, 235, 215);
+  border-radius: 15px;  
+   font-size: 4rem;
+   height: 100%;
+   
+ }
+
+.jugadores {
+  padding-top: 5%;
+  text-align: center;
+
+}
+
+.inputs {
+  font-size: 1.5rem;
+  padding: 3% 10%;
+
+}
+
+label {
+  margin: 0 10px; 
+
+}
+.input-name {
+  margin: 0 10px; 
+  background-color: transparent;
+  border: transparent;
+  border-bottom: solid rgba(250, 250, 250, 0.3) 2px;
+
+}
+.input-lastname {
+  margin: 0 10px; 
+  background-color: transparent;
+  border: transparent;
+  border-bottom: solid rgba(250, 250, 250, 0.3) 2px;
+
+}
+
+.espaciodiv {
+  margin: 50px;
+}
+ .temporada {
+   color: rgb(94, 83, 83);
+ }
+
+ .btn1 {
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+

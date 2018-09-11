@@ -1,3 +1,10 @@
+.container {
+    /* border: solid yellow 3px; */
+    padding: 0 6% 1% 6%; 
+}
+
+
+
 .box1 {
     height: 4.6vw;
 }
@@ -7,6 +14,7 @@
     font-size: 1vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 1vw;
+    /* margin: 0 20px; */
    
     
    
@@ -16,17 +24,21 @@
     /* margin-right: 40vw; */
     color: black;
     width: 100%;
+    /* border: solid red 3px; */
+    margin: 0 20px;
     }
 
     .menu3 {
         list-style: none;
         padding: .75vw;
         font-size: 1vw;
+        margin: 0 20px;
+
+
+        /* border: solid blue 3px; */
+
       
         
-    }
-    .menu5 {
-
     }
 
    

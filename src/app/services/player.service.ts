@@ -11,9 +11,12 @@ export class PlayerService {
   playersCollection: AngularFirestoreCollection<PlayerInterface>;
   players: Observable<PlayerInterface[]>;
   playerDoc: AngularFirestoreDocument<PlayerInterface>;
+  player: Observable<PlayerInterface>;
 
 
-  constructor(public afs: AngularFirestore) {
+
+  constructor(
+    public afs: AngularFirestore) {
     // this.playersCollection = afs.collection<PlayerInterface>('players');
     this.playersCollection = afs.collection<PlayerInterface>('players');
     this.players = this.getPlayers()

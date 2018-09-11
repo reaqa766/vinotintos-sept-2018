@@ -10,11 +10,21 @@ import { RegistreseComponent } from './components/registrese/registrese.componen
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { IngresarComponent } from './components/ingresar/ingresar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PlayersComponent } from './components/players/players.component';
+import { PlayersteComponent } from './components/playerste/playerste.component';
+
+
 
 
 const routes: Routes = [
   {path:'home',
     component: HomeComponent},
+  
+  {path:'players',
+    component: PlayersComponent},
+  
+  {path:'playerste',
+    component: PlayersteComponent},
   
   
   {path:'cuadro',
