@@ -12,6 +12,9 @@ import { IngresarComponent } from './components/ingresar/ingresar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PlayersComponent } from './components/players/players.component';
 import { PlayersteComponent } from './components/playerste/playerste.component';
+import { PitchersteComponent } from './components/playerste/pitcherste/pitcherste.component';
+import { Pitchers1Component } from './components/players/pitchers1/pitchers1.component';
+import { Playerste1Component } from './components/playerste1/playerste1.component';
 
 
 
@@ -22,6 +25,15 @@ const routes: Routes = [
   
   {path:'players',
     component: PlayersComponent},
+
+  {path:'playerste1',
+    component: Playerste1Component},
+  
+  {path:'pitcherste',
+    component: PitchersteComponent},
+    
+  {path:'pitchers1',
+    component: Pitchers1Component},
   
   {path:'playerste',
     component: PlayersteComponent},

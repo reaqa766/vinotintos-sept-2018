@@ -1,0 +1,76 @@
+<!-- NUEVO DISEÑO -->
+
+<div class="container-modulo">
+  <div class="modulo">
+<div class="caja1">MODULO  CARGA DE PITCHERS
+
+ <hr>
+ <p class="temporada" >POR TEMPORADA</p>
+ <hr>
+
+  <p>Grandes Ligas</p>
+  <p>2018</p>
+</div>
+  </div>
+  <div class="modulo">
+<div class="caja2">
+  <div class="jugadores">
+      PITCHERS
+  </div>
+  <form class="inputs"  (ngSubmit)="onSavePlayer()">
+
+      <label for="inputname ">Nombre</label>
+      <input class="input-data" type="text" name="inputname" [(ngModel)]="player.name">
+      
+      <label>Apellido</label>
+      <input class="input-data" type="text" name="inputLname" [(ngModel)]="player.lastname">
+
+      <div class="espaciodiv"></div>
+      
+      <label>Región</label>
+      <input class="input-data" type="text" name="inputLregion" [(ngModel)]="player.Region">
+      
+      <label>Posición </label>
+      <input class="input-data" type="text" name="inputLname" [(ngModel)]="player.Position">
+
+      
+      <div class="espaciodiv"></div>
+      
+      <label>Equipo</label>
+      <input class="input-data" type="text" name="team" [(ngModel)]="player.team">
+      
+      <label>Inn Pitch</label>
+      <input class="input-data" type="text" name="VB" [(ngModel)]="player.INNPte">
+
+      <div class="espaciodiv"></div>
+      
+      <label>Hits Pe</label>
+      <input class="input-data" type="text" name="hits" [(ngModel)]="player.hitsPermte">
+      
+      <label>Ca Limp</label>
+      <input class="input-data" type="text" name="CE" [(ngModel)]="player.CLIMPte">
+
+      <div class="espaciodiv"></div>
+      
+      <label>C Suc</label>
+      <input class="input-data" type="text" name="CA" [(ngModel)]="player.CSUCte">
+      
+      <label>Home RR</label>
+      <input class="input-data" type="text" name="HR" [(ngModel)]="player.HPERMte">
+
+      <div class="espaciodiv"></div>
+      
+      <label>Ponch </label>
+      <input class="input-data" type="text" name="PCHE" [(ngModel)]="player.PCHSREte">
+      
+      <label>Bases B</label>
+      <input class="input-data" type="text" name="BBolas" [(ngModel)]="player.BBOLASPte">
+
+      <div class="espaciodiv"></div>
+
+      <button class="btn btn-danger btn-responsive center-block btn1"  type="submit" (click)="onSavePlayer()"> <i class="fas fa-plus-circle"></i> Guardar</button>
+      
+      </form>
+    </div>
+  </div>
+</div>

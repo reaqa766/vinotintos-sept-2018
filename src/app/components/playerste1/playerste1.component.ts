@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 import { PlayerInterface  } from '../../models/playerInterface';
 
 import { PlayeridService  } from '../../services/playerid.service';
@@ -8,11 +7,11 @@ import { Router, ActivatedRoute  } from '@angular/router';
 
 
 @Component({
-  selector: 'app-playerste',
-  templateUrl: './playerste.component.html',
-  styleUrls: ['./playerste.component.css']
+  selector: 'app-playerste1',
+  templateUrl: './playerste1.component.html',
+  styleUrls: ['./playerste1.component.css']
 })
-export class PlayersteComponent implements OnInit {
+export class Playerste1Component implements OnInit {
   players: PlayerInterface[];
   idPlayer: string;
   // editState: boolean = false;

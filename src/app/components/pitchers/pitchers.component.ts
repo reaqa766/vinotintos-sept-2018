@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { PlayerService } from '../../services/player.service';
 import { PlayerInterface } from '../../models/playerInterface';
-import { Subject } from '../../../../node_modules/rxjs';
-import { resolve } from '../../../../node_modules/@types/q';
+import { Subject } from 'rxjs';
+import { resolve } from 'q';
 
 @Component({
   selector: 'app-pitchers',

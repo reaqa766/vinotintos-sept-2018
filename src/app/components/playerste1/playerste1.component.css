@@ -1,0 +1,243 @@
+/* NUEVO DISEÑO */
+
+
+.container-modulo {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    /* background-color: rgba(240, 231, 229, 0.7); */
+    height: 700px;
+    width: 1200px;
+    justify-content:center;
+    margin: auto;
+    
+  
+  }
+   .modulo {
+     /* background-color: rgb(10, 221, 211); */
+     font-weight: bolder;
+     height: 100%;
+     width: 100%;
+  
+   }
+   
+   .caja1 {
+     background-color: rgba(177, 167, 167, 0.5);
+     color: rgb(250, 235, 215);
+     text-shadow: -1px -1px 4px #000;
+        font-size: 4rem;
+     height: 100%;
+     text-align: center;
+     padding-top: 30%;
+     border-radius: 15px;  
+       }
+    
+    .caja1 p {
+     font-size: 3rem;
+     text-align: center;
+    }
+  
+   .caja2 {
+     background-color: rgba(177, 167, 167, 0.5);
+     color: rgb(250, 235, 215);
+     text-shadow: -1px -1px 4px #000;
+     border-radius: 15px;  
+     font-size: 4rem;
+     height: 100%;
+     
+   }
+  
+  .jugadores {
+    padding-top: 5%;
+    text-align: center;
+  
+  }
+  
+  .inputs {
+    font-size: 1.5rem;
+    padding: 3% 10%;
+    
+  
+  }
+  
+  label {
+    margin: 0 10px; 
+  
+  }
+  /* .input-name {
+    margin: 0 10px; 
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid rgba(250, 250, 250, 0.3) 2px;
+  
+  } */
+  .input-data {
+    margin: 0 10px; 
+    background-color: transparent;
+    border: transparent;
+    border-bottom: solid rgba(250, 250, 250, 0.3) 2px;
+    
+  
+  }
+  
+  .espaciodiv {
+    margin: 50px;
+  }
+  
+  .temporada {
+    color: rgb(94, 83, 83);
+  }
+  
+  .btn1 {
+    box-shadow: -1px -1px 4px rgba(0,0,0,0.8);
+  
+   }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* VIEJO DISEÑO */
+  
+  /* .container-general {
+    display: grid;
+    justify-content: center;
+  } */
+  /* 
+  .container-carga-players {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-auto-rows: minmax(500px, auto); */
+    /* border: solid white 2px; */
+    /* height: auto;
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    width: 65vw;
+    grid-gap: 10px;
+    color: white;
+    justify-content: center;
+    border: solid blue 2px; */
+    /* background-color: rgb(31, 194, 206); */
+  /* } */
+  
+  /* .carga { */
+    /* justify-content: center; */
+    /* text-align: center;
+    border: solid rgb(59, 59, 148) 2px; */
+  
+  
+  
+  /* } */
+  
+  /* .modulos { */
+    /* background-color: rgb(57, 90, 235); */
+    /* text-align: left;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 4rem;
+    border: solid rgb(30, 117, 13) 2px;
+    background-color: rgba(64, 158, 187, 0.4);
+  
+  } */
+  
+  /* .datos-jugadores {
+    border: 1px;
+    display: inline-block;
+    width: auto;
+    margin: auto; */
+    /* text-align: right; */
+    /* border: solid rgb(7, 190, 114) 2px; */
+  
+  
+    /* } */
+  
+  /* .etiqueta1 {
+    font-size: 2rem;
+    margin: 5px 10px; */
+    /* border: solid red 2px; */
+  /* } */
+  
+  /* .dato-input1{
+    font-size: 2rem; */
+    /* margin-left: 40px; */
+    /* width: 300px;
+    margin:5px 5px 5px 20px ; */
+    /* border: solid rgb(224, 221, 17) 2px; */
+  /* }
+  
+  
+  .align1 {
+    text-align: center;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.55);
+  } */
+  
+  /* .cuadro {
+  
+    text-align: center; */
+  /*border: solid black 5px;*/
+  /* }
+  
+  
+  
+  .letr2 {
+    font-size: 2vw;
+  }
+  
+  .letr3 {
+    background-color: rgba(242, 226, 207, 0.65);
+  }
+  
+  .letr5 {
+    background-color: rgba(242, 226, 207, 0.25);
+  }
+  
+  .PBA {
+    border: solid black 3px;
+  }
+   .inline {
+     width: 100%;
+   } */
+  
+  
+  
+  
+  /* 
+  
+  .marg4 {
+    border: solid black 5px;
+  }
+  
+  
+  .letr {
+  font-weight:  bolder;
+  margin-right: 4px;
+  }
+  
+  .letr2 {
+    font-size: 2vw;
+  }
+  
+  .bacg1 {
+    background-color: rgba(242, 226, 207, 0.65);
+  }
+  
+  .marg3 {
+    height: 12vw;
+  }
+   */
+  

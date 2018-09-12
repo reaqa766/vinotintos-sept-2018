@@ -21,11 +21,14 @@ import { MenubarComponent } from './components/menubar/menubar.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { NoticiasComponent } from './components/noticias/noticias.component';
 import { PitchersComponent } from './components/pitchers/pitchers.component';
+import { Pitchers1Component } from './components/players/pitchers1/pitchers1.component';;
 import { RegistreseComponent } from './components/registrese/registrese.component';
 import { PlayersComponent } from './components/players/players.component';
 import { PlayerListComponent } from './components/player-list/player-list.component';
 import { PlayerListteComponent } from './components/player-listte/player-listte.component';
 import { PlayersteComponent } from './components/playerste/playerste.component';
+import { PitchersteComponent } from './components/playerste/pitcherste/pitcherste.component';
+import { Playerste1Component } from './components/playerste1/playerste1.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +46,10 @@ import { PlayersteComponent } from './components/playerste/playerste.component';
     PlayersComponent,
     PlayerListComponent,
     PlayerListteComponent,
-    PlayersteComponent
+    PlayersteComponent,
+    PitchersteComponent,
+    Pitchers1Component,
+    Playerste1Component
   ],
   imports: [
     BrowserModule,

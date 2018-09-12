@@ -23,6 +23,7 @@ export interface PlayerInterface {
     hitsPerm?:any;
     lastname?: any;
     team?: any;
+    Region?: any;
     
     //TEPORADA
     VBte?: any;
@@ -34,6 +35,9 @@ export interface PlayerInterface {
     CEte?: any;
     HRte?: any;
     PCHEte?: any;
+    PCHSRE?: any;
+    PCHSREte?: any;
+
     
     BBOLASPte?: any;
     CLIMPte?: any;

@@ -26,6 +26,7 @@ export class PlayersComponent implements OnInit {
   BBOLASP: '',
   BR:'' ,
   Birdthdate: '',
+  Region: '',
   CA: '',
   CE: '',
   CLIMP: '',
@@ -41,7 +42,6 @@ export class PlayersComponent implements OnInit {
   VB: '',
   hits: '',
   lastname: '',
- 
   team: ''
    };
 
@@ -72,6 +72,12 @@ export class PlayersComponent implements OnInit {
         this.player.BR='';
         this.player.HR='';
         this.player.hits='';
+        this.player.Region='';
+        this.player.Position='';
+        this.player.team='';
+        this.player.PCHE='';
+        this.player.BBOLAS='';
+
 
       }} 
 

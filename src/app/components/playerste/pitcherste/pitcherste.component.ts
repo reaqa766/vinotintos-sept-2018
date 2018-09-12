@@ -1,18 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 
-import { PlayerInterface  } from '../../models/playerInterface';
+import { PlayerInterface  } from '../../../models/playerInterface';
 
-import { PlayeridService  } from '../../services/playerid.service';
+import { PlayeridService  } from '../../../services/playerid.service';
 
 import { Router, ActivatedRoute  } from '@angular/router';
 
 
+
 @Component({
-  selector: 'app-playerste',
-  templateUrl: './playerste.component.html',
-  styleUrls: ['./playerste.component.css']
+  selector: 'app-pitcherste',
+  templateUrl: './pitcherste.component.html',
+  styleUrls: ['./pitcherste.component.css']
 })
-export class PlayersteComponent implements OnInit {
+export class PitchersteComponent implements OnInit {
   players: PlayerInterface[];
   idPlayer: string;
   // editState: boolean = false;
@@ -35,7 +36,7 @@ export class PlayersteComponent implements OnInit {
   HRte: '',
   INNPte: '',
   PCHEte: '',
-  PCHESRte: '',
+  PCHESR: '',
   Position: '',
   VBte: '',
   hitste: '',
@@ -65,17 +66,17 @@ export class PlayersteComponent implements OnInit {
         this.playeridService.addPlayer(this.player);
         this.player.name='';
         this.player.lastname='';
-        this.player.VBte='';
-        this.player.CAte='';
-        this.player.CEte='';
-        this.player.BRte='';
-        this.player.HRte='';
-        this.player.hitste='';
+        this.player.INNPte='';
+        this.player.CLIMPte='';
+        this.player.CSUCte='';
+        this.player.HPERMte='';
+        this.player.PCHSREte='';
+        this.player.hitsPermte='';
         this.player.Region='';
         this.player.Position='';
         this.player.team='';
-        this.player.PCHEte='';
-        this.player.BBOLASte='';
+        this.player.PCHE='';
+        this.player.BBOLASPte='';
 
 
       }} 
